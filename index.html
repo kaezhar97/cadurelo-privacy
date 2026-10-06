@@ -14,7 +14,7 @@
 <main>
 <article id="privacy">
 <h1>Privacy Policy</h1>
-<p class="date">Last updated: September 16, 2026</p>
+<p class="date">Last updated: October 6, 2026</p>
 <p>Cadurelo is a focus timer provided by Octavio Avila Cardet. This policy explains how information is handled when you use the app, contact us, or visit this page.</p>
 <p class="summary">Cadurelo uses your information to provide your account, categories, timer, and settings. The current app has no advertising, third-party analytics or tracking SDKs, purchases, or subscriptions. We do not sell your personal information or use it for targeted advertising.</p>
 <h2>Information you provide and create</h2>
@@ -34,7 +34,8 @@
 <p>With your permission, Cadurelo schedules local timer notifications on your device. The app does not send your notification schedule to a separate push-notification provider. You can change notification and sound permissions in iPhone Settings.</p>
 <p>If you use a TestFlight beta, Apple processes beta participation, diagnostics, and feedback under its TestFlight terms and privacy information. Apple may make crash reports and feedback available to the developer. Cadurelo does not include a separate third-party crash-reporting or analytics SDK.</p>
 <h2>Retention and deletion</h2>
-<p>Your saved account data is kept to provide the service until you remove it or delete your account. You can delete individual categories, change your profile and settings, and delete your account from Profile → Delete account. Account deletion requires reauthorization with the same Apple Account and removes the account, associated profile, categories, settings, timer data, and profile image from Cadurelo's active service. The deletion process also revokes the app's Apple authorization.</p>
+<p>Your saved account data is kept to provide the service until you remove it or delete your account. You can delete individual categories, change your profile and settings, and delete your account from Profile → Delete account. To begin deletion, Cadurelo's server requires recently verified authorization with the same Apple Account, tied to your signed-in session. This verification expires after a short period. If it expires before deletion begins, you will need to verify with Apple again. Once deletion has begun, interrupted cleanup can be retried without repeating Apple verification; you must still be signed in to the account being deleted.</p>
+<p>Account deletion removes your account, associated profile, categories, settings, timer data, and profile image from Cadurelo's active service. The deletion process also revokes the app's Apple authorization. In Cadurelo 1.0.1 and later, after successful deletion, the app removes that account's saved timer checkpoint from the device used for deletion. Interrupted device cleanup may finish when the app next opens. This does not erase caches on other devices or copies in service-provider backups and operational logs.</p>
 <p>If deletion cannot finish because of a network or service error, the app shows a retry path; the request is not treated as successfully completed until the deletion operation succeeds. Signing out or uninstalling the app does not by itself delete your server account.</p>
 <p>Copies in service-provider backups and operational logs may remain for the provider's applicable retention periods. Support correspondence may be retained to resolve your request and keep a record of the response. These copies are not necessarily removed immediately when an account is deleted.</p>
 <h2>Your choices</h2>
